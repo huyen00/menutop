@@ -11,46 +11,48 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
-    .navbar{
+    .bg-dark{
         background-color: #3693c5!important;
     }
   </style>
 </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-to rounded-top justify-content-center">
-        <ul class="navbar-nav">
+    
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-to rounded-top ">
+        <ul class="navbar-nav  bg-dark justify-content-center">
             <li class="nav-item">
                 <a class="nav-link " href="#">
                     <i class="fas fa-walking"></i>
-                    Entrance
+                   <span class="text">Entrance</span> 
                 </a>
                
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="#">
                     <i class="fas fa-home"></i>
-                    Lobby
+                    <span class="text">Lobby</span> 
+                </a>
+                
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-person-booth"></i>
+                    <span class="text">Exhibition Hall</span>  
                 </a>
                 
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">
                     <i class="fas fa-users"></i>
-                    Exhibit Hall
-                </a>
-                
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-laptop"></i>
-                    Auditortum
+                    <span class="text">Auditortum</span>  
                 </a>
                 
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="#">
-                    <i class="fas fa-person-booth"></i>
-                    Booth
+                    <!-- <i class="fas fa-person-booth"></i> -->
+                    <img src="assets/image/1.png" class="img-fluid" style="width:1.5rem" alt="">
+                    <span class="text">Booth</span>  
                 </a>
                 <ul class="sub-menu d-block rounded-bottom">
                     <a href="#" class="sub-item border-bottom border-secondary rounded-bottom"> Entrance1</a>
@@ -62,15 +64,76 @@
             <li class="nav-item">
                 <a class="nav-link " href="#">
                     <i class="far fa-comment"></i>
-                    Chat
+                    <span class="text">Chat</span>
                 </a>
             </li>
-          </ul>
+        </ul>
+        <ul class="nav bg-secondary justify-content-end">
+            <li class="nav-item-right">
+                <a href="#" class="nav-link-right">
+                    <img src="assets/image/rotate.png" class="img-fluid rotate" alt="Bật xoay">
+                    <img src="assets/image/lock.png" class="img-fluid lock"  alt="Tắt xoay">
+                </a>
+            </li>
+            <li class="nav-item-right">
+                <a href="#" class="nav-link-right">
+                    <i class="fas fa-volume-up"></i>
+                    <i class="fas fa-volume-mute"></i>
+                </a>
+            </li>
+            <li class="nav-item-right">
+                <a href="#" class="nav-link-right menu-login-right">
+                    <i class="fas fa-ellipsis-v"></i>                 
+                </a>
+                <ul class="sub-menu-right d-block rounded-bottom" id="menu-login">
+                    <li class="sub-item border-bottom border-secondary rounded-bottom">
+                        <a href="#" class="sub-link">
+                            <i class="fas fa-file-contract icon-left"></i>
+                            Contact
+                        </a>
+                    </li>
+                    <li class="sub-item border-bottom border-secondary rounded-bottom">
+                        <a href="#" class="sub-link">
+                            <i class="fas fa-share-alt icon-left"></i>
+                            Share to...
+                        </a>
+                    </li>
+                    <li class="sub-item border-bottom border-secondary rounded-bottom">
+                        <a href="#" class="sub-link">
+                            <i class="fas fa-paperclip icon-left"></i>
+                            Copy link
+                        </a>
+                    </li>
+                    <li class="sub-item border-bottom border-secondary rounded-bottom">
+                        <a href="#" class="sub-link">
+                            <!-- <i class="fas fa-chevron-left "></i>
+                            <i class="fas fa-chevron-right icon-left"></i> -->
+                            <i class="fas fa-angle-left"></i>
+                            <i class="fas fa-angle-right icon-left"></i>
+                            Embed 
+                        </a>
+                    </li>
+                    <li class="sub-item">
+                        <a href="#" class="sub-link">
+                            <i class="fas fa-sign-in-alt icon-left"></i>
+                            Login
+                        </a>
+                    </li>
+                    <!-- <a href="#" class="sub-item border-bottom border-secondary rounded-bottom"> Entrance1</a>
+                    <a href="#" class="sub-item border-bottom border-secondary rounded-bottom"> Entrance1</a>
+                    <a href="#" class="sub-item border-bottom border-secondary rounded-bottom"> Entrance1</a>
+                    <a href="#" class="sub-item rounded-bottom">Entrance2</a> -->
+                </ul>
+            </li>
+        </ul>
     </nav>
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="assets/js/home.js"></script>
+</body>
 </html>

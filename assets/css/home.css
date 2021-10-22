@@ -33,16 +33,142 @@ a{
     width:150px;
     padding-left:0;
     top: 87%;
-    /* border-top: 2px solid #EC9123; */
-
+   
     background: #3693c5!important;
     position: absolute;
    
     transition: all 0.3s ease 0s;
-    /* opacity: 0; */
-    /* visibility: hidden; */
 }
 .nav-item:hover .sub-menu a{
     display: block;
     font-weight: 600;
+}
+
+
+/* menu -right */
+
+.navbar-nav {
+    width:80%;
+}
+.nav{
+   width:20%;
+}
+.nav-item-right{
+    /* padding-left:1.5rem;
+    margin-top:10px;
+    padding-right:1rem; */
+    padding: 8px 16px;
+}
+.fa-volume-mute{
+    display: none;
+}
+.rotate{
+    width:1rem;
+} 
+.lock{
+    width:1rem;
+    display: none;
+}
+.sub-menu-right{
+    width:160px;
+    right:12px;
+    top: 100%;
+    z-index: 99;
+   
+    background: #3693c5!important;
+    position: absolute;
+    
+   
+    transition: all 0.3s ease 0s;
+}
+.sub-item{
+    list-style: none;
+    padding-top:1rem;
+    padding-left:1rem;
+    padding-bottom: 0.8rem;
+}
+.sub-link{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    padding-inline-start: 0px !important;
+}
+.sub-item:hover{
+    background-color: #d44c23f2;
+    color:#fff;
+}
+a:hover{
+    color:#fff !important;
+}
+.icon-left{
+    padding-right:1rem;
+}
+#menu-login .sub-item{
+    display: none;
+}
+
+/* reponsive mobile */
+@media only screen and (max-width:739px){
+    .text{
+        display: none;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: row !important;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        flex-wrap: nowrap;
+       width: 100%;
+    }
+    .nav{
+        top: 60px;
+        right: 0;
+        position: absolute;
+        background: aquamarine;
+    }
+    .sub-menu-right{
+        border-radius: 5px;
+        right:2rem;
+        top:75%;
+    }
+    .sub-item:hover{
+        background-color: #d44c23f2;
+        color:#fff;
+    }
+}
+
+/* reponsive tablet */
+@media only screen and (min-width:740px) and (max-width:1024px){
+    
+    .navbar-nav {
+        display: flex;
+        flex-direction: row !important;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+    .nav{
+        top: 60px;
+        right: 0;
+        width:10%;
+        position: absolute;
+        background: #832907ed
+    }
+    .nav-item {
+        padding-right: 1rem;
+    }
+    .sub-menu-right{
+        border-radius: 5px;
+        right:2rem;
+        top:75%;
+    }
+    .sub-item:hover{
+        background-color: #d44c23f2;
+        color:#fff;
+    }
 }
