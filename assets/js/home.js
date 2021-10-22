@@ -31,3 +31,17 @@ $(document).ready(function(){
     });
    
 });
+
+/*Xử lý sự kiện nút share */
+$(document).ready(function(){
+    $('#share').click(function(event){
+        $('.form-share').show();
+        $('#menu-login .sub-item').hide();
+        
+    });
+    $('.nen').click(function(event){
+        $('.form-share').hide();
+        
+    });
+});
+

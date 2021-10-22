@@ -1,6 +1,9 @@
 *{
     color: white;
 }
+body{
+    
+}
 a{
     text-decoration: none !important;
 }
@@ -58,6 +61,8 @@ a{
     margin-top:10px;
     padding-right:1rem; */
     padding: 8px 16px;
+    border-radius: 7px !important;
+
 }
 .fa-volume-mute{
     display: none;
@@ -108,6 +113,46 @@ a:hover{
     display: none;
 }
 
+/* form - share */
+.nen{
+    background-color: #dfc0b5ed !important;
+    width: 100%;
+    height:100%;
+    top:0;
+    left :0;
+    right:0;
+    bottom: 0;
+    position: absolute;
+}
+.form-share{
+    margin: 0 auto;
+    width:400px;
+    height:200px;
+    z-index: 99;
+        /* display: flex; 
+        justify-content: center;
+        align-items: center;
+     */
+     top:40%;
+     left:35%;
+     border-radius: 6px;
+    position: absolute;
+    background-color: #a52f0b93;
+    display: none;
+}
+
+.link{
+    background-color: #3693c5;
+    padding:0.5rem 1rem;
+    border-radius: 7px;
+}
+.form{
+    height:100%;
+}
+.link:hover{
+    background-color:#d44c23f2;
+}
+
 /* reponsive mobile */
 @media only screen and (max-width:739px){
     .text{
@@ -136,6 +181,34 @@ a:hover{
     .sub-item:hover{
         background-color: #d44c23f2;
         color:#fff;
+    }
+    /*form-share */
+    .form-share{
+        margin: 0 auto;
+        width:300px;
+        height:200px;
+        z-index: 99;
+         top:40%;
+         left:10%;
+         border-radius: 6px;
+        position: absolute;
+        background-color: #a52f0b93;
+        display: none;
+    }
+    .col-md-6{
+        padding-right: 0px !important;
+    }
+    .left{
+        width: 60% !important;
+        display: flex;
+    }
+    .right{
+        width: 40% !important;
+        display: flex;
+    }
+   
+    .row{
+        flex-wrap: nowrap;
     }
 }
 
@@ -171,4 +244,33 @@ a:hover{
         background-color: #d44c23f2;
         color:#fff;
     }
+    /*form-share */
+    .form-share{
+        margin: 0 auto;
+        width:400px;
+        height:200px;
+        z-index: 99;
+         top:40%;
+         left:25%;
+         border-radius: 6px;
+        position: absolute;
+        background-color: #a52f0b93;
+        display: none;
+    }
+    .col-md-6{
+        padding-right: 0px !important;
+    }
+    .left{
+        width: 50% !important;
+        display: flex;
+    }
+    .right{
+        width: 50% !important;
+        display: flex;
+    }
+   
+    .row{
+        flex-wrap: nowrap;
+    }
 }
+

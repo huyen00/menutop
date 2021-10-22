@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/layout/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/home.css">
-
+  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
@@ -17,7 +17,7 @@
   </style>
 </head>
   <body>
-    
+    <div class="nen"></div>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-to rounded-top ">
         <ul class="navbar-nav  bg-dark justify-content-center">
             <li class="nav-item">
@@ -85,7 +85,7 @@
                 <a href="#" class="nav-link-right menu-login-right">
                     <i class="fas fa-ellipsis-v"></i>                 
                 </a>
-                <ul class="sub-menu-right d-block rounded-bottom" id="menu-login">
+                <ul class="sub-menu-right d-block rounded" id="menu-login">
                     <li class="sub-item border-bottom border-secondary rounded-bottom">
                         <a href="#" class="sub-link">
                             <i class="fas fa-file-contract icon-left"></i>
@@ -93,11 +93,12 @@
                         </a>
                     </li>
                     <li class="sub-item border-bottom border-secondary rounded-bottom">
-                        <a href="#" class="sub-link">
+                        <a href="#" class="sub-link" id="share">
                             <i class="fas fa-share-alt icon-left"></i>
                             Share to...
                         </a>
                     </li>
+
                     <li class="sub-item border-bottom border-secondary rounded-bottom">
                         <a href="#" class="sub-link">
                             <i class="fas fa-paperclip icon-left"></i>
@@ -106,8 +107,6 @@
                     </li>
                     <li class="sub-item border-bottom border-secondary rounded-bottom">
                         <a href="#" class="sub-link">
-                            <!-- <i class="fas fa-chevron-left "></i>
-                            <i class="fas fa-chevron-right icon-left"></i> -->
                             <i class="fas fa-angle-left"></i>
                             <i class="fas fa-angle-right icon-left"></i>
                             Embed 
@@ -119,14 +118,34 @@
                             Login
                         </a>
                     </li>
-                    <!-- <a href="#" class="sub-item border-bottom border-secondary rounded-bottom"> Entrance1</a>
-                    <a href="#" class="sub-item border-bottom border-secondary rounded-bottom"> Entrance1</a>
-                    <a href="#" class="sub-item border-bottom border-secondary rounded-bottom"> Entrance1</a>
-                    <a href="#" class="sub-item rounded-bottom">Entrance2</a> -->
+                    
                 </ul>
             </li>
         </ul>
     </nav>
+    <div class="row">
+        <div class="form-share ">
+            <div class="p-4 form">
+                <h4>Link share...</h4>
+                <div class="row pt-5 d-flex">
+                    <div class="col-md-6 col-sm-6 col-xs-6 left">
+                        <a href="#" class="link">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 right">
+                        <a href="#"  class="link">
+                            <i class="fab fa-skype"></i>
+                            <span>Skype</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <img src="assets/image/btn_x.png" class="close" alt=""> -->
+        </div>
+    </div>
+    
 
     
     <!-- Optional JavaScript -->
