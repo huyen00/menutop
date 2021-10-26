@@ -153,6 +153,7 @@ a:hover{
     background-color:#d44c23f2;
 }
 
+
 /* form login */
 .form-login{
     width: 500px;
@@ -219,6 +220,8 @@ label{
     justify-content: center;
     color:black;
 }
+
+
 /* reponsive mobile */
 @media only screen and (max-width:739px){
     .text{
@@ -276,6 +279,8 @@ label{
     .row{
         flex-wrap: nowrap;
     }
+
+
     /* form-login */
     .form-login{
         width:300px;
@@ -351,6 +356,8 @@ label{
     .row{
         flex-wrap: nowrap;
     }
+      
+    /* form-login */
     .form-login{
         width:400px;
         height:500px;
