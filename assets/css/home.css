@@ -115,7 +115,7 @@ a:hover{
 
 /* form - share */
 .nen{
-    background-color: #dfc0b5ed !important;
+    background-color: #fff !important;
     width: 100%;
     height:100%;
     top:0;
@@ -153,6 +153,72 @@ a:hover{
     background-color:#d44c23f2;
 }
 
+/* form login */
+.form-login{
+    width: 500px;
+    height:550px;
+    top:25%;
+    left:35%;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 99;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+}
+label{
+    color:black;
+}
+/* #3693c5; */
+.login{
+    padding:20px;
+}
+.form-check{
+    display: flex!important;
+    align-content: center;
+    justify-content: space-between;
+}
+.title-login{
+    text-align: center;
+    color:black;
+}
+.link-forgot{
+    color:rgb(228, 225, 220);
+    text-decoration: ghostwhite;
+    color:black !important;
+}
+.link-forgot:hover{
+    color:black !important;
+}
+.link-login{
+    text-align: center;
+    justify-content: center;
+    background-color: chocolate;
+    padding:10px;
+    border-radius: 5px;
+    color:#fff;
+}
+.link-face{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(46, 12, 170, 0.809);
+    padding:10px;
+    border-radius: 5px;
+    color:#fff;
+}
+.link-google{
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(181, 19, 19, 0.844);
+    padding:10px;
+    border-radius: 5px;
+    color:#fff;
+}
+.title-or{
+    text-align: center;
+    justify-content: center;
+    color:black;
+}
 /* reponsive mobile */
 @media only screen and (max-width:739px){
     .text{
@@ -209,6 +275,19 @@ a:hover{
    
     .row{
         flex-wrap: nowrap;
+    }
+    /* form-login */
+    .form-login{
+        width:300px;
+        height:500px;
+        /* top:%; */
+         left:12%;
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        z-index: 99;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
     }
 }
 
@@ -271,6 +350,18 @@ a:hover{
    
     .row{
         flex-wrap: nowrap;
+    }
+    .form-login{
+        width:400px;
+        height:500px;
+        /* top:%; */
+         left:26%;
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        z-index: 99;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
     }
 }
 

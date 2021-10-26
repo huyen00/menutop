@@ -45,3 +45,15 @@ $(document).ready(function(){
     });
 });
 
+/* xử lý sự kiện login */
+$(document).ready(function(){
+    $('#login-form').click(function(event){
+        $('.form-login').show();
+        $('#menu-login .sub-item').hide();
+        
+    });
+    $('.nen').click(function(event){
+        $('.form-login').hide();
+        
+    });
+});
